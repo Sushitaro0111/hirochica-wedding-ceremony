@@ -25,7 +25,7 @@ SECRET_KEY = '0+e)@qkaz*v2$hyku=no=^j09ry$=a^4yx+8n#*j#*ly&p_5am'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hirochica-wedding-app.herokuapp.com']
 
 
 # Application definition
