@@ -1,1 +1,0 @@
-# hirochica-wedding-ceremony
