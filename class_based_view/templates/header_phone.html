@@ -1,0 +1,24 @@
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="{% url 'store:celemony_info' %}"> Celemony Infomation</a></li>
+<li><a href="{% url 'store:book_list' %}"> Communication</a></li>
+<li><a href="{% url 'store:home' %}">Home</a></li>
+<li><a href="{% url 'store:about' %}">About</a></li>
+<li><a href="{% url 'store:home' %}">Gallery</a></li>
+<li><a href="{% url 'store:home' %}">Link</a></li>
+</ul>
+</nav>
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close">
+  <!--メニューの開閉処理条件設定　800px以下-->
+  <script>
+  if (OCwindowWidth() <= 800) {
+    open_close("menubar_hdr", "menubar-s");
+  }
+  </script>
+</div>
